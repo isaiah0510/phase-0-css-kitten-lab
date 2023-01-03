@@ -1,5 +1,5 @@
 /* Select the image with a class of kitty-1 */
-write-your-selector-here {
+a[href$="images/kitty-1.png"] {
   position: absolute;
   z-index: 1;
   top: 276px;
@@ -31,7 +31,7 @@ write-your-selector-here {
 }
 
 /* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
-write-your-selector-here {
+* "Kitty 5"  {
   position: absolute;
   z-index: 3;
   top: 217px;
